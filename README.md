@@ -12,6 +12,7 @@ In both projects it is necessary to use this library:
 https://github.com/vyuldashev/laravel-queue-rabbitmq
 
 In .env.example copy configs about rabbimt to .env
+
 Change in .env to QUEUE_CONNECTION=rabbitmq
 
 In website: https://www.rabbitmq.com/docs/download you need to execute docker run in the example there to up a container of rabbitmq
